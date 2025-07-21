@@ -1,5 +1,5 @@
 import '../assets/css/style.css'
-const LearnInlineCss = () => {
+const LearnCss = () => {
 
     const style = {
         container : {
@@ -41,4 +41,4 @@ const LearnInlineCss = () => {
   )
 }
 
-export default LearnInlineCss
+export default LearnCss
