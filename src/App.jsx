@@ -10,7 +10,11 @@ import LearnUseEffect from "./componets/LearnUseEffect";
 import LearnUseMemo from "./componets/LearnUseMemo";
 import ChildA from "./componets/ChildA";
 import { createContext,useState } from "react";
-import LearnUseRef from "./assets/LearnUseRef";
+import LearnUseRef from "./componets/LearnUseRef";
+import LearnCustomHooks from "./componets/LearnCustomHooks";
+import LearnConditionalRendering from "./componets/LearnConditionalRendering";
+import LearnMap from "./componets/LearnMap";
+import LearnInlineCss from "./componets/LearnInlineCss";
 
 const StockContex = createContext() 
 const UserContext = createContext()
@@ -49,7 +53,11 @@ function App() {
         </UserContext>
       </StockContex.Provider> */}
        
-       <LearnUseRef />
+       {/* <LearnUseRef /> */}
+       {/* <LearnCustomHooks /> */}
+       {/* <LearnConditionalRendering /> */}
+       {/* <LearnMap /> */}
+       <LearnInlineCss />
     </>
   )
 }
